@@ -26,6 +26,22 @@ All of the cathode connections of LED segments in common cathode seven segment d
 * Motor-vehicle odometers
 * Radio frequency indicators
 
+# SWOT ANALYSIS 
+# STRENGTH
+* The ATmega328P is an 8-bit AVR microcontroller with strong performance and low power consumption.
+* Superior RISC design, it can execute the most powerful commands in a single clock cycle.
+* It's a CPU that's typically seen in Arduino boards like the Arduino Fio and Arduino Uno.
+# WEAKNESS
+* Processors are easier to operate since they employ 8bit and 16bit instead of the more difficult 32/64bit.
+* With 32k bytes of onboard self-programmable flash programme memory and 23 programmable I/O lines, it may be used without any external computational components.
+* The arithmetic logic unit (ALU) is directly coupled to all 31 registers, making it 10 times quicker than traditional CISC microcontrollers.
+* AVR improved RISC instruction set optimised
+# OPPURTUNITY 
+Based on the AVR improved RISC architecture, the ATmega328P is a low-power CMOS 8-bit microcontroller. The ATmega328P achieves throughputs of around 1 million instructions per second per MHz. In a single clock cycle, strong instructions are executed. This makes it simple for system designers to balance power consumption and processing speed. Because of its use in the Arduino UNO board, the ATMega328p is one of Atmel's most well-known MCUs. The ATmega328P was created with minimal current consumption in mind. Internal flash memory is 32 kilobytes, EEPROM is 1 kilobyte, and SRAM is 2 kilobytes.
+# THREAT 
+* High up-front costs
+* Performance standardization has not yet been streamlined.
+
 # Who
 For common people
 
@@ -40,3 +56,21 @@ In Simulide
 
 # How
 By using Atmega328
+
+# LOW LEVEL REQUIREMENT
+* HADWARE COMPONENT
+* Hardware components
+* ATmega328
+* 7 Segment LED Display
+* General Purpose Transistor NPN
+* Through Hole Resistor, 680 ohm
+* 16 MHz Crystal
+* Capacitor 1000 pF
+* Capacitor 100 µF
+* Capacitor 100 nF
+* Resistor 10k ohm
+* SparkFun USB to Serial Breakout - FT232RL
+* SparkFun USB to Serial Breakout - FT232RL
+
+# HIGH LEVEL REQUIREMENT
+AVR compiler,simule ide
