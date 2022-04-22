@@ -1,5 +1,5 @@
 
-# SEVEN SEGMENT DISPLAY USING ATMEGA 328
+# SEVEN SEGMENT DISPLAY USING ATMEGA 328 
 
 # Introduction
 Seven segment displays are a type of output display device that can display data in the form of images, text, or decimal numbers as an alternative to more complicated dot matrix displays. Digital clocks, simple calculators, electronic metres, and other electronic devices that show numerical information all use it. It is made up of seven segments of light emitting diodes (LEDs) that are connected in a number 8 pattern.
